@@ -1,7 +1,7 @@
 import {useState, useEffect } from 'react'
 import  useAwirutstore  from '../store/AwirutStore'
 import { currentUser } from '../api/auth'
-import LoadingToRedirect from './loadingToredirect'
+import LoadingToRedirect from './LoadingToredirect'
 
 
 const ProtectRouteUser = ({ element }) => {

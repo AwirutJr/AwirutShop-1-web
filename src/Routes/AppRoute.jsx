@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ProtectRouteAdmin from './ProtectRouteAdmin'
 import ProtectRouteUser from './ProtectRouteUser'
 //Layout
-import Layout from '../Layout/Layout'
-import LayoutUser from '../Layout/LayoutUser'
-import LayoutAdmin from '../Layout/LayoutAdmin'
+import Layout from '../Layout/layout'
+import LayoutUser from '../Layout/layoutUser'
+import LayoutAdmin from '../Layout/layoutAdmin'
 // auth
 import Login from '../pages/auth/Login'
 import Register from '../pages/auth/Register'

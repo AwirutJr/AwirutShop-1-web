@@ -1,0 +1,21 @@
+/* ปรับสไตล์ของปุ่ม next และ prev ให้เป็นวงกลม */
+.swiper-button-next, .swiper-button-prev {
+    color: #ffffff; /* เปลี่ยนสีตัวอักษรให้เป็นสีขาว */
+    background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังโปร่งใสสีดำ */
+    border-radius: 50%; /* ทำให้ปุ่มเป็นวงกลม */
+    width: 40px; /* กำหนดความกว้างของปุ่ม */
+    height: 40px; /* กำหนดความสูงของปุ่ม */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* เปลี่ยนสีพื้นหลังเมื่อ hover */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* สีพื้นหลังเมื่อ hover */
+}
+
+/* เพิ่มขนาดลูกศรในปุ่ม */
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px; /* ขนาดของลูกศร */
+}

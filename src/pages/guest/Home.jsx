@@ -1,5 +1,5 @@
 import BestSeller from "../../components/Home/BestSeller"
-import Content from "../../components/Home/content"
+import Content from "../../components/Home/Content"
 import NewProduct from "../../components/Home/NewProduct"
 
 const Home = () => {

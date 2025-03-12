@@ -1,4 +1,4 @@
-import FormProduct from "../../components/formProduct"
+import FormProduct from "../../components/FormProduct"
 const Product = () => {
   return (
     <div>
